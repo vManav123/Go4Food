@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.go4food">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-sdk tools:overrideLibrary="com.truecaller.android.sdk"/>
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/mytheme">
+        <meta-data android:name="com.truecaller.android.sdk.PartnerKey" android:value="tIjEB0c6bc22d35074b468c15249e3c9c81c5"/>
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/map_key"/>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".dataActivity" />
+        <activity android:name=".DatabaseActivity" />
+        <activity android:name=".SentActivity" />
+        <activity android:name=".ForgetActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="Go4Food"
+            android:theme="@style/mytheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".FrontActivity" />
+        <activity android:name=".ui.MapActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ImageSlider" />
+    </application>
+
+</manifest>

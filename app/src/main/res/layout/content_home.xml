@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose your location : "
+            android:textColor="#1340D1"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/city"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/choose"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Select city here"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/ll1"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Select your interests"
+        android:textColor="@color/colorPrimary"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/northindian"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="North Indian"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:id="@+id/fastfood"
+                android:text="Fast Food"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:id="@+id/chinese"
+                android:text="Chinese"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Mexican"
+                android:id="@+id/mexican"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="American"
+                android:id="@+id/american"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Italian"
+                android:layout_margin="4dp"
+                android:id="@+id/italian"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:id="@+id/streetfood"
+                android:text="Street Food"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="European"
+                android:id="@+id/european"
+                android:textAllCaps="false"
+                android:layout_margin="4dp"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Continental"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:id="@+id/contienental"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cafe"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Cafe"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Bakery"
+                android:id="@+id/bakery"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:id="@+id/southindian"
+                android:text="South Indian"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Mughlai"
+                android:id="@+id/mughlai"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="sweets"
+                android:id="@+id/sweet"
+                android:textAllCaps="false"
+                android:layout_margin="4dp"
+                android:textColor="#1340D1">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Japanese"
+                android:id="@+id/japanese"
+                android:textAllCaps="false"
+                android:layout_margin="4dp"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/thai"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Thai"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Malaysian"
+                android:id="@+id/malasian"
+                android:layout_margin="4dp"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Burmese"
+                android:id="@+id/burmese"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/asiant"
+                android:background="@drawable/hollowround"
+                android:padding="10dp"
+                android:text="Asian"
+                android:textAllCaps="false"
+                android:textColor="#1340D1">
+
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/roundbutton"
+                android:text="Search"
+                android:id="@+id/search"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

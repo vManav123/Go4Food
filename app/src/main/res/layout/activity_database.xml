@@ -1,0 +1,41 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Your contents -->
+
+
+<com.facebook.shimmer.ShimmerFrameLayout
+    android:layout_width="match_parent"
+    android:id="@+id/shimmer_layout"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/shimmerlayout1"></include>
+        <include layout="@layout/shimmerlayout1"></include>
+        <include layout="@layout/shimmerlayout1"></include>
+        <include layout="@layout/shimmerlayout1"></include>
+
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerview"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+ 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84140125674",
+    "firebase_url": "https://go4food-26c31.firebaseio.com",
+    "project_id": "go4food-26c31",
+    "storage_bucket": "go4food-26c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84140125674:android:b30374c3fac11c3f469693",
+        "android_client_info": {
+          "package_name": "com.example.go4food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84140125674-nnmfmc09bipsp1nrb123fi7p0l4b50jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.go4food",
+            "certificate_hash": "25458b763d6093edbb1c01eb93527875113aa391"
+          }
+        },
+        {
+          "client_id": "84140125674-32essjalp9qo47lpvvg1o5rnuanmibh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASzA03Jh3Qk5NzlD5DiETX6islKTweDwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84140125674-88qisgk38k4975fs4prsh29qa1m6m7rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

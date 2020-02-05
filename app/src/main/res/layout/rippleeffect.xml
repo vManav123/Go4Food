@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:color="#e4e4e4"
+    tools:targetApi="lollipop"> <!-- ripple effect color -->
+    <item android:id="@android:id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <shape android:shape="rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <solid android:color="#fcfcfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /> <!-- background color -->
+        </shape>
+    </item>
+</ripple>
