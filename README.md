@@ -32,3 +32,5 @@ What things you need to install the software
 * [Maven](https://maven.apache.org/) - Dependency Management
 
 ## Contributing
+
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
