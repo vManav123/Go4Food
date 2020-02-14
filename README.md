@@ -37,4 +37,4 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 
 ## Authors
 
-* Manav Verma - Initial work - vManav123
+* Manav Verma - Initial work - https://github.com/vManav123
