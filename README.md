@@ -12,9 +12,11 @@ after setup the website and app, we able to access that data & displayed on the 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<br>
 1.fork or download as zip
-2.open android studio -> open project -> select the NoteKeeper project
-or
+<br>
+2.open android studio -> open project -> select the NoteKeeper project 
+or 
 Open Android studio -> Import from version Control -> github -> paste the url of project to download
 
 
