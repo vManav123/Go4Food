@@ -6,18 +6,27 @@ In this project we are going to help the people to finding their meals from the 
 after setup the website and app, we able to access that data & displayed on the screens by searching option from their respective locations. we provide the paths to reach these locations by accessing the google maps.A person can search any dish from app and find their meal from that location.
 <br>
 <br>
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/Launcher.png" width = "150" >  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/front.png" width = "150" >  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/googlesignin.png" width = "150" >  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/Truecaller.png" width = "150" >  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/login.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/register.png" width = "150">
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/forget.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/navigation.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/selectcity.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/profile.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/shops.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/shopdetails.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/menus.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/map.png" width = "150">  
-<img src = " https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/maplocated.png" width = "150">  
+<img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/Launcher.png" width = "150" ><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/front.png" width = "150" ><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/googlesignin.png" width = "150" ><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/Truecaller.png" width = "150" ><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/login.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/register.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/forget.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/navigation.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/selectcity.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/profile.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/shops.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/shopdetails.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/menus.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/map.png" width = "150"><img src = "https://github.com/vManav123/Go4Food/blob/master/images%20of%20App/maplocated.png" width = "150">  
+
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+1.fork or download as zip
+2.open android studio -> open project -> select the NoteKeeper project
+or
+Open Android studio -> Import from version Control -> github -> paste the url of project to download
+
+
+### Prerequisites
+
+What things you need to install the software
+* Android Studio 3.5 or latest
+* Gradle plugin 5.4.1
+
+## Built With
+
+* [Android Studio](https://developer.android.com/studio/) - The Mobile App Developent Platform
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Contributing
