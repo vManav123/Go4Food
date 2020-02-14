@@ -34,3 +34,7 @@ What things you need to install the software
 ## Contributing
 
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* Manav Verma - Initial work - vManav123
